@@ -1,0 +1,1 @@
+angular.module('seahawk-crime', ['seahawk.crime-map']);

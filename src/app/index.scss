@@ -1,0 +1,97 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+.leaflet-container {
+  font-family: "Open Sans", sans-serif;
+}
+
+.full-map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.crime-sidebar {
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+  perspective: 1px; /* any non-zero value will work */
+}
+
+.sidebar-content {
+  background: #FFF;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.sidebar-content > h1 {
+  margin-top: 0;
+}
+
+.leaflet-popup-content h3 {
+  margin-bottom: 0;
+}
+
+.leaflet-popup-content h2 {
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+// Legend bar
+
+.legend-bar {
+  display: flex;
+  align-items: flex-end;
+  height: 1em;
+}
+
+.legend-bar > div {
+  border: 1px solid #FFF;
+  width: 33%;
+  height: 1em;
+  position: relative;
+  cursor: pointer;
+  & > div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.5em;
+    transition: height 0.4s;
+  }
+  &:hover > div {
+    height: 1em;
+  }
+}
+
+.legend--low {
+  background: rgba(181, 226, 140, 1);
+}
+
+.legend--med {
+  background: rgba(241, 211, 87, 1);
+}
+
+.legend--high {
+  background: rgba(253, 156, 115, 1);
+}
+
+.legend-label {
+  display: flex;
+}
+
+.legend-label > span {
+  width: 33%;
+  text-align: center;
+  font-size: 0.75em;
+  line-height: 1em;
+}
