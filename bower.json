@@ -4,13 +4,10 @@
   "dependencies": {
     "angular-sanitize": "~1.4.2",
     "jquery": "~2.1.4",
-    "animate.css": "~3.4.0",
     "angular": "^1.5.0",
     "leaflet": "^0.7.7",
     "leaflet.markercluster": "^0.4.0",
     "lodash": "^4.2.1",
-    "sidebar-v2": "^0.3.0",
-    "font-awesome": "fontawesome#^4.5.0",
     "moment": "^2.11.2"
   },
   "devDependencies": {
@@ -22,13 +19,6 @@
         "dist/leaflet.markercluster.js",
         "dist/MarkerCluster.css",
         "dist/MarkerCluster.Default.css"
-      ]
-    },
-    "sidebar-v2": {
-      "main": [
-        "css/leaflet-sidebar.css",
-        "js/jquery-sidebar.js",
-        "js/leaflet-sidebar.js"
       ]
     },
     "font-awesome": {
